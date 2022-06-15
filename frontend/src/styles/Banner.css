@@ -1,0 +1,11 @@
+.group-banner {
+    color: black;
+    text-align: center;
+    padding-bottom: 32px;
+    border-bottom: solid 3px #FFD7d7;
+}
+
+.group-banner img {
+    max-width: 200px;
+    max-height: 200px;
+}
