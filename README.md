@@ -1,35 +1,35 @@
 # P7_LEILOUS_Charles-Edouard_052022
 
-Must be written in English
 
-Also, make a README for the backend and the frontend, also indicate that we have an .envexemple
+DATABASE
 
-Backend
+Before you start anything, you will need to create a database with phpmyadmin and use laragon to link your database with your application
 
-Before you start anything, you will need to install few things for your application
 
-    bcrypt : npm install bcrypt
-        
-    cors : npm install cors
+FRONTEND
 
-    dotenv : npm install dotenv
+Open the file 'frontend' in your terminal and use this command
 
-    express : npm install -- save express
+ 'npm install'
 
-    fs : npm install fs
+then
 
-    jsonwebtoken : npm install -- save jsonwebtoken
+ 'npm start'
 
-    multer : npm install -- save multer
 
-    mysql2 : npm install mysql2
+BACKEND
 
-    sequelize : npm install -- save sequelize
+Open the file 'backend' in your terminal and use this command
 
-Then, after install these modules, you will need to create a database with phpmyadmin and use laragon to link your database with your application
+ 'npm install'
 
-Once you finished the previous tasks, open a new terminal and lauch your nodemon server
+then
 
-Frontend 
+ 'nodemon server'
 
-You will need to start your application with npm start in a new terminal
+
+IMPORTANT NOTE
+
+We have some environment data, you can find a file named '.envexemple' in the backend file. Make sure to create a .env file.
+
+Good job, your application is now working ! 

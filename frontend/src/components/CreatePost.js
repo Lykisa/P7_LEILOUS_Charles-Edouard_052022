@@ -14,16 +14,6 @@ function CreatePost( { post }) {
 
         e.preventDefault()
 
-        
-
-        /* const formData = new FormData()
-        
-        
-        formData.append('text', text)
-        formData.append('userId', JSON.parse(localStorage.getItem('user')).userId)
-
-        console.log(formData) */
-
         const body = {
             'text': text,
             'userId': JSON.parse(localStorage.getItem('user')).userId
@@ -40,8 +30,6 @@ function CreatePost( { post }) {
             }
         }).then (res => navigate('/wall', {replace : true}))
 
-        
-        /* post.push(formData) */
     }
     
 
