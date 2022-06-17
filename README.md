@@ -14,6 +14,22 @@ Make sure you installed Sequelize, if not you can use :
 npm install -- save sequelize
 npm install mysql2
 
+DEPENDENCIES
+
+This application is using multiples dependencies, you will need to install them
+
+Bcrypt : npm install bcrypt
+
+Body-parser : npm install -- save body-parser
+
+Cors : npm install cors
+
+Dotenv : npm install dotenv
+
+Express : npm install --save express
+
+Jsonwebtoken : npm install --save jsonwebtoken
+
 
 FRONTEND
 
@@ -36,9 +52,5 @@ then
 
  'nodemon server'
 
-
-IMPORTANT NOTE
-
-We have some environment data, you can find a file named '.envexemple' in the backend file. Make sure to create a .env file.
 
 Good job, your application is now working ! 
