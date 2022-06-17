@@ -23,13 +23,17 @@ async function affichagePost() {
             article.className = article
             let lienArticle = href.appendChild(article);
 
+            let infoArticle = document.createElement("div");
+            infoArticle.className = infoArticle;
+            lienArticle.appendChild(infoArticle);
+
             let user = document.createElement("h1");
             user.innerHTML = post.user.username;
-            lienArticle.appendChild(user);
+            infoArticle.appendChild(user);
 
-            let date = document.createElement("h2");
+            let date = document.createElement("p");
             date.innerHTML = post.createdAt.split('T')[0] +' '+ post.createdAt.split('T')[1].slice(0, -5);
-            lienArticle.appendChild(date);
+            infoArticle.appendChild(date);
 
             let text = document.createElement("p");
             text.innerHTML = post.text;

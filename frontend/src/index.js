@@ -18,9 +18,9 @@ root.render(
       <Route path="/" element={<Login />} />
       <Route path="signin" element={<Signin />} />
       <Route path="wall" element={<Mur />} />
-      <Route path="profile" element={<Compte />} />
       <Route path="creation" element={<Create />} />
       <Route path="/post/:postId" element={<OnePost />} />
+      <Route path="profile" element={<Compte />} />
     </Routes>
   </BrowserRouter>
 );

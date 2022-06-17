@@ -5,6 +5,15 @@ DATABASE
 
 Before you start anything, you will need to create a database with phpmyadmin and use laragon to link your database with your application
 
+In the file groupomania/backend/ create a .env file where you put your access password to your database and your username if needed (root by default)
+Then you'll need to create a base for your token (projet7 by default)
+Also your localhost (localhost by default)
+
+Make sure you installed Sequelize, if not you can use :
+
+npm install -- save sequelize
+npm install mysql2
+
 
 FRONTEND
 
